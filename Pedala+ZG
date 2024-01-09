@@ -8,9 +8,30 @@
         <meta name="author" content="Zvonko Juras">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/x-icon" href="IMAGES/favicon.ico">
+        <style>
+            body {background-color: black;}
+            #banner {width: 100%;                       
+                    height: auto;             
+                    margin: 0 auto; }
+            nav a { color: #b7c408;
+                    font-size: 18px;
+                    text-decoration: underline;            
+                    margin: 0 10px; }
+            nav {   background-color:#33332f;
+                    height: 25px;}
+        </style>
     </head>
     <body>
-        
+        <header>
+            <img id="banner" src="IMAGES/banner.jpg" alt="Banner">
+            <nav>
+                <a href="#">Početna stranica</a>
+                <a href="#">Novosti</a>
+                <a href="#">Galerija</a>
+                <a href="#">O nama</a>
+                <a href="#">Kontakt</a>
+            </nav>
+        </header>
     </body>
 
 </html>
