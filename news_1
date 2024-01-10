@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>ZG+pedala</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Zg+Pedala - A website dedicated to cycling enthusiasts. Discover the latest news, tips, routes, and a community of pedal enthusiasts. Immerse yourself in the world of cycling in and around Zagreb with the Zg+Pedala website.">
+        <meta name="keywords" content="Cycling, Zagreb, Randonneuring, Cycletouring">
+        <meta name="author" content="Zvonko Juras">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="IMAGES/favicon.ico">
+        <style>
+            body {  background-color: black;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    margin: 0 auto;
+                    width: 85%;}
+            body h1, h2, p {color: azure;
+                            margin: 0;
+                            padding: 0;}
+            body h1 {text-align: center;}
+            body h2 {color: bisque;}
+            body a {color: orange;
+                    font-size: 20px;}
+            #banner {width: 100%;                       
+                    height: auto;             
+                    margin: 0 auto; }
+            nav a { color: #b7c408;
+                    font-size: 18px;
+                    text-decoration: underline;            
+                    margin: 0 10px; }
+            nav {   background-color:#33332f;
+                    height: 25px;}
+            figure {width: 40%;
+                    color: bisque;
+                    float: left;
+                    margin: 0 4% 0 0;
+                    padding: 0;}
+            figure img {width: 100%;}
+            figcaption {text-align: center;
+                        font-size: 20px;}
+            p { font-size: 20px;
+                letter-spacing: 2px;
+                text-indent: 50px;
+                text-align: justify;
+                line-height: 35px;}
+            main {padding: 20px 10px;}
+            footer {background-color:#33332f;
+                    padding: 2px 0 0 2px;
+                    margin-top: 2px;
+                    text-align: center;
+                    color:#b7c408;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    height: 2.5rem;}
+            #page-container {position: relative;
+                            min-height: 100vh;}
+            #content-wrap {padding-bottom: 2.5rem;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="banner" src="IMAGES/banner.jpg" alt="Banner">
+            <nav>
+                <a href="#">Početna stranica</a>
+                <a href="#">Novosti</a>
+                <a href="#">Galerija</a>
+                <a href="#">O nama</a>
+                <a href="#">Kontakt</a>
+            </nav>
+        </header>
+        <main>
+            <div id="page-container">
+                <div id="content-wrap">
+                    <h1>2. Vrbovečka biciklijada</h1>
+                    <hr>
+                    <h2>27.5.2017. - 121km</h2>
+                    <figure>
+                        <img src="IMAGES/1.jpg" alt="vrbovecka" width="40%">
+                        <figcaption>Vrbovečka biciklijada - pauza</figcaption>
+                    </figure>
+                    <p>Na poziv M iz Cugovca, uputili smo se speckama na 2. po redu Vrbovečku biciklijadu. Neizbježan put je preko Dugog sela gdje je cesta još uvijek u betonskim blokovima, pa se prilično razdrmaš dok ih prođeš.. Primjetili smo neke radove na cesti, pa se nadamo da će se i to uskoro promjeniti..</p>
+                    <p>Po dolasku u Vrbovec, prijavili smo se organizatorima, pa s M popili kavu i krenuli. Organizacija je bila odlična, od osigurane hrane i pića, popratnog kombija, policijske pratnje, snimanja biciklijade kamerama i dronom, itd.. </p>
+                    <p>Na kraju biciklijade čekala nas je klopa, cuga i tamburaši, pa smo se još malo podružili i krenuli nazad za ZG..</p>
+                    <img src="IMAGES/1karta.jpg" alt="karta" width="40%">
+                    <a href="https://www.strava.com/activities/1007952563">Strava - 2.Vrbovečka biciklijada</a>
+            </div> 
+            <footer><a href="https://www.strava.com/athletes/15676137"><img src="IMAGES/strava.png" alt="stravaicon" height="30px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright  &copy; Zvonko Juras 2024.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/z3juras/WEB_projektni_zadatak_ZJ"><img src="IMAGES/github-mark-white.png" alt="githubicon" height="30px"></a></footer> 
+        </main>
+    </body>
+</html>
