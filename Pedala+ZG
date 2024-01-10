@@ -40,6 +40,11 @@
                 text-align: justify;
                 line-height: 35px;}
             main {padding: 20px 10px;}
+            footer {background-color:#33332f;
+                    padding: 2px 0 0 2px;
+                    margin-top: 2px;
+                    text-align: center;
+                    color:#b7c408;}
         </style>
     </head>
     <body>
@@ -64,8 +69,11 @@
             <p>Po dolasku u Vrbovec, prijavili smo se organizatorima, pa s M popili kavu i krenuli. Organizacija je bila odlična, od osigurane hrane i pića, popratnog kombija, policijske pratnje, snimanja biciklijade kamerama i dronom, itd.. </p>
             <p>Na kraju biciklijade čekala nas je klopa, cuga i tamburaši, pa smo se još malo podružili i krenuli nazad za ZG..</p>
             <img src="IMAGES/1karta.jpg" alt="karta" width="40%">
-            <a href="https://www.strava.com/activities/1007952563">Strava</a>
+            <a href="https://www.strava.com/activities/1007952563">Strava - 2.Vrbovečka biciklijada</a>
         </main>
+        <footer>
+            <footer><a href="https://www.strava.com/athletes/15676137"><img src="IMAGES/strava.png" alt="stravaicon" height="30px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright  &copy; Zvonko Juras 2024.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/z3juras/WEB_projektni_zadatak_ZJ"><img src="IMAGES/github-mark-white.png" alt="githubicon" height="30px"></a></footer>
+        </footer>
     </body>
 
 </html>
